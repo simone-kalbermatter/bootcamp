@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button mainButton = findViewById(R.id.mainButton);
         EditText enterNameField = findViewById(R.id.enterNameField);
+        
         mainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
